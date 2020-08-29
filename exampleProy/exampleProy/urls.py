@@ -20,5 +20,5 @@ from exampleApp import views
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('', views.exampleView),
+    path('example', views.exampleView),
 ]
